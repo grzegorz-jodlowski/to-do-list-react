@@ -1,4 +1,4 @@
-@import '../../styles/settings.scss';
+@import "../../styles/settings.scss";
 
 .component {
   padding: 0 0 $base-size 0;
@@ -13,6 +13,7 @@
   display: flex;
   justify-content: space-between;
   overflow: auto;
+  flex-wrap: wrap;
 }
 
 .creator {
@@ -25,7 +26,6 @@
 }
 
 @media (max-width: 767px) {
-
   .columns {
     flex-direction: column;
     overflow: hidden;

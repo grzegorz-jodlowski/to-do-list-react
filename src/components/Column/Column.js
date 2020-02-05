@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Column.scss';
 import PropTypes from 'prop-types';
 import Card from '../Card/Card.js';
+import Icon from '../Icon/Icon.js';
 import Creator from '../Creator/Creator.js'
 import { settings } from '../../data/dataStore.js';
 
@@ -16,6 +17,7 @@ class Column extends React.Component {
   static propTypes = {
     title: PropTypes.string,
     cards: PropTypes.array,
+    icon: PropTypes.node,
   }
 
   addCard(title) {
@@ -35,7 +37,7 @@ class Column extends React.Component {
   render() {
     return (
       <section className={styles.component}>
-        <h3 className={styles.title}>{this.props.title}</h3>
+        <h3 className={styles.title}>{this.props.title}<span className={styles.icon}><Icon name={this.props.icon} /></span></h3>
         <div className={styles.title}>
           {this.state.cards.map(({ key, ...cardsProps }) => (
             <Card key={key} {...cardsProps} />
