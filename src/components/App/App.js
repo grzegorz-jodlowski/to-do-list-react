@@ -1,19 +1,19 @@
 import React from 'react';
 import styles from './App.scss';
-import List from '../List/List.js'
-import { pageContents, listData, settings } from '../../data/dataStore.js'
-import Creator from '../Creator/Creator.js'
+import List from '../List/List.js';
+import { pageContents, listData, settings } from '../../data/dataStore.js';
+import Creator from '../Creator/Creator.js';
 
 
 class App extends React.Component {
 
-  addList(title) {
-    this.setState(state => (
-      {
+  // addList(title) {
+  //   this.setState(state => (
+  //     {
 
-      }
-    ));
-  }
+  //     }
+  //   ));
+  // }
 
   render() {
     return (
@@ -25,7 +25,7 @@ class App extends React.Component {
           <Creator text={settings.listCreatorText} action={title => this.addList(title)} />
         </div>
       </main>
-    )
+    );
   }
 }
 
