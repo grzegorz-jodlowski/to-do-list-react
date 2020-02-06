@@ -11,7 +11,7 @@ export const settings = {
 };
 
 export const pageContents = {
-  title: 'My first React app',
+  title: 'To do app with React',
   subtitle: 'A simple to-do app, with lists, columns and cards',
 };
 

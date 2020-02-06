@@ -26,7 +26,7 @@ class Creator extends React.Component {
   }
 
   handleOK = () => {
-    if(this.state.value != ''){
+    if (this.state.value != '') {
       this.props.action(this.state.value);
       this.setState({
         value: '',
@@ -52,8 +52,8 @@ class Creator extends React.Component {
           onChange={this.handleChange}
         />
         <div className={styles.buttons + (this.state.visibleButtons ? ' ' + styles.buttonsShown : '')}>
-          <Button onClick={this.handleOK}>OK</Button>
-          <Button onClick={this.handleCancel} variant='danger'>cancel</Button>
+          <Button onClick={this.handleOK} variant='wide'>OK</Button>
+          <Button onClick={this.handleCancel} variant='danger blue'>cancel</Button>
         </div>
       </div>
     );

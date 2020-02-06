@@ -1,4 +1,4 @@
-@import '../../styles/settings.scss';
+@import "../../styles/settings.scss";
 
 .component {
   background: $color-success;
@@ -23,5 +23,13 @@
     &:hover {
       background: darken($color-warning, 5%);
     }
+  }
+
+  &.blue {
+    background: blue;
+  }
+
+  &.wide {
+    flex-grow: 2;
   }
 }
