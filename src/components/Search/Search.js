@@ -22,27 +22,33 @@ class Search extends React.Component {
     value: this.props.searchString,
   }
 
-  handleChange(event){
+  handleChange(event) {
     this.setState({
       value: event.target.value,
       visibleButtons: event.target.value.length > 0,
     });
   }
 
-  handleOK(){
+  handleOK() {
     this.props.changeSearchString(this.state.value);
   }
 
-  componentDidUpdate(prevProps){
-    if(this.props.searchString != prevProps.searchString){
-      this.setState({value: this.props.searchString});
+  componentDidUpdate(prevProps) {
+    if (this.props.searchString != prevProps.searchString) {
+      this.setState({ value: this.props.searchString });
+    }
+  }
+
+  handleKeyPress = (event) => {
+    if (event.key === 'Enter') {
+      this.handleOK();
     }
   }
 
   render() {
-    const {text, countVisible, countAll} = this.props;
-    const {value} = this.state;
-    const {icon} = settings.search;
+    const { text, countVisible, countAll } = this.props;
+    const { value } = this.state;
+    const { icon } = settings.search;
     return (
       <div className={styles.component}>
         <input
@@ -50,12 +56,13 @@ class Search extends React.Component {
           placeholder={text}
           value={value}
           onChange={event => this.handleChange(event)}
+          onKeyPress={this.handleKeyPress}
         />
         <div className={styles.buttons}>
           <Button onClick={() => this.handleOK()}><Icon name={icon} /></Button>
         </div>
         <div>
-          { countVisible == countAll ? '' : `${countVisible} / ${countAll}` }
+          {`${countVisible} / ${countAll}`}
         </div>
       </div>
     );
