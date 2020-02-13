@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 // import ReactHtmlParser from 'react-html-parser';
 
 
-const Container = props => (
-  <div className={styles.component}>{props.children}</div>
+const Container = ({ children }) => (
+  <div className={styles.component}>{children}</div>
 );
 
 Container.propTypes = {
