@@ -1,10 +1,12 @@
 import React from 'react';
 import Container from '../Container/Container';
+import Hero from '../Hero/Hero';
+import { faqPageContent } from '../../data/dataStore.js';
 
 const FAQ = () => (
   <Container>
-    <h2>FAQ</h2>
-    <p>Lorem ipsum c culpa qui officia deserunt mollit anim id est laborum.</p>
+    <Hero titleText={faqPageContent.title} imageURL={faqPageContent.image} />
+    <p>{faqPageContent.description}</p>
   </Container>
 );
 

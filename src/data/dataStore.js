@@ -13,11 +13,24 @@ export const settings = {
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+  logoIcon: 'clipboard-list',
 };
 
 export const pageContents = {
   title: 'To do app with React',
   subtitle: 'A simple to-do app, with lists, columns and cards',
+};
+
+export const infoPageContent = {
+  title: 'Info title',
+  description: 'Info description',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+};
+
+export const faqPageContent = {
+  title: 'FAQ title',
+  description: 'FAQ description',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
 };
 
 export const listData = {
