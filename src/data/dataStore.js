@@ -91,7 +91,19 @@ const lists = [
     id: 'list-1',
     title: 'Things to do <sup>soon!</sup>',
     description: 'Interesting things I want to check out!',
-    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+    image: 'https://images.pexels.com/photos/459654/pexels-photo-459654.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+  },
+  {
+    id: 'list-2',
+    title: 'Kitchen <sup>recipes</sup>',
+    description: 'A lot of things to cook!',
+    image: 'https://images.pexels.com/photos/691114/pexels-photo-691114.jpeg?cs=srgb&dl=black-frying-pan-with-spaghetti-sauce-near-brown-wooden-691114.jpg&fm=jpg',
+  },
+  {
+    id: 'list-3',
+    title: 'Mountain <sup>checklist</sup>',
+    description: 'let\'s get ready to climb!',
+    image: 'https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
   },
 ];
 
@@ -117,6 +129,12 @@ const columns = [
   {
     id: 'column-4',
     listId: 'list-2',
+    title: 'Strange column',
+    icon: 'question',
+  },
+  {
+    id: 'column-5',
+    listId: 'list-3',
     title: 'Strange column',
     icon: 'question',
   },
