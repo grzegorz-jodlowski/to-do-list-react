@@ -5,6 +5,8 @@ import FAQ from '../FAQ/FAQ';
 import MainLayout from '../MainLayout/MainLayout.js';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { AnimatedSwitch } from 'react-router-transition';
+import styles from './App.scss';
+
 
 const App = () => (
   <BrowserRouter>
@@ -13,7 +15,7 @@ const App = () => (
         atEnter={{ opacity: 0 }}
         atLeave={{ opacity: 0 }}
         atActive={{ opacity: 1 }}
-        className="switch-wrapper"
+        className={styles.switchWrapper}
       >
         <Route exact path='/' component={Home} />
         <Route exact path='/info' component={Info} />
