@@ -26,5 +26,6 @@
 }
 
 .logo {
-  font-size: 24px;
+  font-size: ($base-size * 3);
+  padding-right: ($base-size * 3);
 }
