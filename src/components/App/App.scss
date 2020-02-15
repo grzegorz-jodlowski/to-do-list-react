@@ -1,5 +1,8 @@
+@import "../../styles/settings.scss";
+
 .switchWrapper {
   position: relative;
+  margin-top: ($base-size * 3);
 
   > :first-child ~ * {
     position: absolute;
