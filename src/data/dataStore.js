@@ -13,6 +13,7 @@ export const settings = {
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+  defaultSearchColumnTitle: 'SearchResult',
   logoIcon: 'clipboard-list',
 };
 
