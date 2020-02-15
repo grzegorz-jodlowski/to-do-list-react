@@ -34,7 +34,7 @@ class Search extends React.Component {
   }
 
   handleOK() {
-    this.props.changeSearchString(this.state.value);
+    // this.props.changeSearchString(this.state.value);
     this.props.history.push(`/search/${this.state.value}`);
   }
 
@@ -68,7 +68,8 @@ class Search extends React.Component {
             <Button onClick={() => this.handleOK()}><Icon name={icon} /></Button>
           </div>
           <div>
-            {countVisible == countAll ? '' : `${countVisible} / ${countAll}`}
+            {`${countVisible} / ${countAll}`}
+            {/* {countVisible == countAll ? '' : `${countVisible} / ${countAll}`} */}
           </div>
         </div>
       </Container>
