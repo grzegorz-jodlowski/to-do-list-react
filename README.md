@@ -56,7 +56,7 @@
 
 
 
-## <a name="heroku"></a>GitHub Pages
+## <a name="heroku"></a>Heroku
 <a href="https://glacial-reef-67756.herokuapp.com/">React To do app</a>
 
 
