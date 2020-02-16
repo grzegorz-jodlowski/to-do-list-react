@@ -1,5 +1,5 @@
 <p align="center">
-<a href="#"><img src="src/images/chart.png" title="to-do-logo" alt="logo of to do app"></a>
+<a href="https://glacial-reef-67756.herokuapp.com/"><img src="src/images/to-do-app.png" title="to-do-app" alt="layout of to do app"></a>
 </p>
 
 
@@ -32,6 +32,7 @@
 - JavaScript
 - React
 - Redux
+- Router
 - webpack
 - GIT
 
@@ -56,6 +57,6 @@
 
 
 ## <a name="heroku"></a>GitHub Pages
-<a href="#">React To do app</a>
+<a href="https://glacial-reef-67756.herokuapp.com/">React To do app</a>
 
 
