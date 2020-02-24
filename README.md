@@ -5,7 +5,7 @@
 
 
 # <p align="center">✅ React To do app</p>
-<p align="center"></p>
+<p align="center">Project for mastering React and learning Redux</p>
 
 </br>
 
@@ -22,6 +22,7 @@
 
 ## <a name="about"></a>What's this project about?
 
+This is a SPA to organize tasks and checklist, yes I know one panda has died... (another to-do-app 😋). It has several subpages realized by React Router. Search box allows to search to-do-cards and shows them on a separate page. After selecting the list, you can add further columns and cards to it.
 
 
 </br>
@@ -76,6 +77,6 @@ npm start
 
 
 ## <a name="heroku"></a>Heroku
-<a href="https://glacial-reef-67756.herokuapp.com/">React To do app</a>
+[React To do app](https://glacial-reef-67756.herokuapp.com/)
 
 
