@@ -41,8 +41,13 @@ This is a SPA to organize tasks and checklist, yes I know one panda has died... 
 </br>
 
 ## <a name="what"></a>What I learned?
-- ...
-
+- use and configure a webpack (as a task runner and module bundler),
+- use CSS and SCSS loaders to create for example random class names,
+- difference between functional and class components, and why there will be more functional components in the future,
+- principles of dependencies between components,
+- debugging React,
+- check value types in props,
+-
 
 </br>
 
