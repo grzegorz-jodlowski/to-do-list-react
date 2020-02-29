@@ -45,9 +45,19 @@ This is a SPA to organize tasks and checklist, yes I know one panda has died... 
 - use CSS and SCSS loaders to create for example random class names,
 - difference between functional and class components, and why there will be more functional components in the future,
 - principles of dependencies between components,
-- debugging React,
+- debug React (using [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) for Chrome),
 - check value types in props,
+- work with state component,
+- force code validation with ESLint only when committing (using the [husky](https://www.npmjs.com/package/husky) package),
+- configure ESLint to check only modified files when committing (using the [lint-staged](https://www.npmjs.com/package/lint-staged) package),
+- use Redux (create store, actions and reducers),
+- debug Redux (using [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd) for Chrome),
+- use destructuring and other ES6 features,
+- create regular expressions to filter strings,
 -
+
+
+
 
 </br>
 
