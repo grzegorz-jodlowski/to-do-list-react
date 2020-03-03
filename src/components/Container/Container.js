@@ -1,8 +1,6 @@
 import React from 'react';
 import styles from './Container.scss';
 import PropTypes from 'prop-types';
-// import ReactHtmlParser from 'react-html-parser';
-
 
 const Container = ({ children }) => (
   <div className={styles.component}>{children}</div>

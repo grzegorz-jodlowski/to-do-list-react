@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Home.scss';
-import ListLink from '../ListLink/ListLink.js';
+import ListLink from '../ListLink/ListLink';
 import PropTypes from 'prop-types';
 
 

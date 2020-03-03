@@ -26,13 +26,13 @@ export const pageContents = {
 export const infoPageContent = {
   title: 'Info title',
   description: 'Info description',
-  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  image: 'https://images.pexels.com/photos/1112048/pexels-photo-1112048.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
 };
 
 export const faqPageContent = {
   title: 'FAQ title',
   description: 'FAQ description',
-  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  image: 'https://images.pexels.com/photos/419635/notebook-empty-design-paper-419635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
 };
 
 export const listData = {

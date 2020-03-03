@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from '../Container/Container';
 import Hero from '../Hero/Hero';
-import { infoPageContent } from '../../data/dataStore.js';
+import { infoPageContent } from '../../data/dataStore';
 
 
 const Info = () => (
