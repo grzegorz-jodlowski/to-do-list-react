@@ -5,7 +5,7 @@
 
 
 # <p align="center">✅ To do app with React</p>
-<p align="center">Project for mastering React and learning Redux and React Router</p>
+<p align="center">Project for learning React, Redux and React Router</p>
 
 </br>
 
@@ -165,4 +165,7 @@ npm start
 ## <a name="heroku"></a>Heroku
 [React To do app](https://glacial-reef-67756.herokuapp.com/)
 
+</br>
+</br>
 
+  *project implemented as part of the 9-month [Web Developer Plus](https://kodilla.com/pl/bootcamp/webdeveloper/?type=wdp&editionId=309) course organized by [Kodilla](https://drive.google.com/file/d/1AZGDMtjhsHbrtXhRSIlRKKc3RCxQk6YY/view?usp=sharing)
