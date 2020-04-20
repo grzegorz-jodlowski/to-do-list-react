@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://glacial-reef-67756.herokuapp.com/"><img src="src/images/to-do-app.png" title="to-do-app" alt="layout of to do app"></a>
+<a href="https://to-do-list-with-react.herokuapp.com/"><img src="src/images/to-do-app.png" title="to-do-app" alt="layout of to do app"></a>
 </p>
 
 
@@ -185,7 +185,7 @@ for files selected with `git add` and to be saved in commit.
 
 
 ## <a name="site"></a>Website (on Heroku)
-[React To do app](https://glacial-reef-67756.herokuapp.com/)
+[React To do app](https://to-do-list-with-react.herokuapp.com/)
 - if the page loads slowly, wait a moment, the server is waking up because it is hosted on a free platform Heroku.
 
 </br>
