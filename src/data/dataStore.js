@@ -157,56 +157,67 @@ const columns = [
 const cards = [
   {
     id: 'card-1',
+    index: 0,
     columnId: 'column-1',
     title: 'This Is Going to Hurt',
   },
   {
     id: 'card-2',
+    index: 1,
     columnId: 'column-1',
     title: 'Interpreter of Maladies',
   },
   {
     id: 'card-3',
+    index: 0,
     columnId: 'column-2',
     title: 'Harry Potter',
   },
   {
     id: 'card-4',
+    index: 1,
     columnId: 'column-2',
     title: 'Star Wars',
   },
   {
     id: 'card-5',
+    index: 0,
     columnId: 'column-3',
     title: 'The Witcher',
   },
   {
     id: 'card-6',
+    index: 1,
     columnId: 'column-3',
     title: 'Skyrim',
   },
   {
     id: 'card-7',
+    index: 0,
     columnId: 'column-4',
     title: 'Best fluffy pancakes',
   },
   {
     id: 'card-8',
+    index: 0,
     columnId: 'column-5',
     title: 'Plain flour',
   },
   {
     id: 'card-9',
+    index: 0,
     columnId: 'column-6',
     title: 'Jacket',
   },
   {
     id: 'card-10',
+    index: 0,
     columnId: 'column-7',
     title: 'sleeping bag',
   },
   {
     id: 'card-11',
+    index: 1,
     columnId: 'column-7',
     title: 'mat',
   },

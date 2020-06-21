@@ -7,6 +7,8 @@ import { settings } from '../../data/dataStore';
 import ReactHtmlParser from 'react-html-parser';
 import Creator from '../Creator/Creator';
 import Container from '../Container/Container';
+import { DragDropContext } from 'react-beautiful-dnd';
+
 
 
 class List extends React.Component {
@@ -25,6 +27,10 @@ class List extends React.Component {
   render() {
     const { title, image, description, columns, addColumn } = this.props;
 
+    const moveCardHandler = result => {
+      console.log(result);
+    };
+
     return (
       <Container>
         <section className={styles.component}>
@@ -33,9 +39,11 @@ class List extends React.Component {
             {ReactHtmlParser(description)}
           </div>
           <div className={styles.columns}>
-            {columns.map(columnData => (
-              <Column key={columnData.id} {...columnData} />
-            ))}
+            <DragDropContext onDragEnd={moveCardHandler}>
+              {columns.map(columnData => (
+                <Column key={columnData.id} {...columnData} />
+              ))}
+            </DragDropContext>
           </div>
           <div className={styles.creator}>
             <Creator text={settings.columnCreatorText} action={addColumn} />

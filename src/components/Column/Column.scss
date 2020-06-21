@@ -38,6 +38,10 @@
   }
 }
 
+.cards {
+  padding: ($base-size / 2) 0;
+}
+
 @media (max-width: 767px) {
   .component {
     width: 100%;
