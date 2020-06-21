@@ -3,17 +3,10 @@ import styles from './Card.scss';
 import PropTypes from 'prop-types';
 
 
-class Card extends React.Component {
-  static propTypes = {
-    title: PropTypes.string,
-  }
+const Card = ({ title }) => <div className={styles.component}>{title}</div>;
 
-  render() {
-    const { title } = this.props;
-    return (
-      <div className={styles.component}>{title}</div>
-    );
-  }
-}
+Card.propTypes = {
+  title: PropTypes.string,
+};
 
 export default Card;
