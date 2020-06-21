@@ -18,6 +18,7 @@ class List extends React.Component {
     columns: PropTypes.array,
     image: PropTypes.string,
     addColumn: PropTypes.func,
+    moveCard: PropTypes.func,
   }
 
   static defaultProps = {
@@ -25,10 +26,30 @@ class List extends React.Component {
   }
 
   render() {
-    const { title, image, description, columns, addColumn } = this.props;
+    const { title, image, description, columns, addColumn, moveCard } = this.props;
 
     const moveCardHandler = result => {
-      console.log(result);
+      if (
+        result.destination
+        &&
+        (
+          result.destination.index != result.source.index
+          ||
+          result.destination.droppableId != result.source.droppableId
+        )
+      ) {
+        moveCard({
+          id: result.draggableId,
+          dest: {
+            index: result.destination.index,
+            columnId: result.destination.droppableId,
+          },
+          src: {
+            index: result.source.index,
+            columnId: result.source.droppableId,
+          },
+        });
+      }
     };
 
     return (
